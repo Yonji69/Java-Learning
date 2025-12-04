@@ -12,6 +12,11 @@ public class baseClass {
         return res;
     }
 
+    public void baseMethod()
+    {
+        System.out.println("Base Method");
+    }
+
 
     public static void main(String[] args) {
         baseClass shape = new baseClass();
