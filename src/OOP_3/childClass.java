@@ -38,6 +38,8 @@ public class childClass extends baseClass {
         /* Note: if we have to override a static method from the base class we will have to create the same methof in the child class
         itself , so lik in the lines 15-19 when we annotate the function with override it wont work but if we remove it
         it becomes a fucntion defined int he child class itself regardless if it has the same name as the base class or a new name
+
+
          */
         ob2.overrideMethod2();
 
