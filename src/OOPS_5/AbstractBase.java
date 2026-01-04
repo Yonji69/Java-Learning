@@ -12,6 +12,11 @@ public abstract class AbstractBase {
 
     abstract void degree();
 
+    static void hello()
+    {
+        System.out.println("Hello");
+    }
+
 
     public static void main(String[] args)
     {

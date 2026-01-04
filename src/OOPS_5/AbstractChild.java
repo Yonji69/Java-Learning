@@ -23,5 +23,16 @@ public class AbstractChild extends AbstractBase{
         AbstractChild ac = new AbstractChild();
         ac.career();
         ac.degree();
+
+
+        AbstractBase.hello(); // static methods can be used inside the abstract classes
     }
+
+    /* if a class has 1 or more than 1 abstract methods then it needs to have the abstract class
+
+    we cannot creat objects of abstract classes and we cannot have abstract constructors
+
+    we also cannot cretae abstract static methods
+    but we can create static methods in abstract classes
+     */
 }
