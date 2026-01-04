@@ -2,6 +2,8 @@ package OOPS_5;
 
 public class AbstractChild extends AbstractBase{
 
+
+
     // every single method from the base class has to be implemented.
     @Override
     void career() {
@@ -14,6 +16,11 @@ public class AbstractChild extends AbstractBase{
         System.out.println("You can choose your own degree");
 
     }
+
+
+
+
+
 
     public static void main(String[] args) {
         //AbstractBase ab1 = new AbstractBase(); // we will have to reimplement the methods in the main class if we trying to instantiate an object of that class

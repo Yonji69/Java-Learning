@@ -1,10 +1,15 @@
 package OOPS_5;
 
 
+import java.sql.SQLOutput;
+
 /*
 If any onf the classes or methods are declared abstract the methods implementing it must be abstract as well
 */
 public abstract class AbstractBase {
+
+
+    static final int marks =90;
 
     abstract void career();
     // abstract class cannot have a body
@@ -15,6 +20,7 @@ public abstract class AbstractBase {
     static void hello()
     {
         System.out.println("Hello");
+
     }
 
 
@@ -33,5 +39,10 @@ public abstract class AbstractBase {
             }
         };
         System.out.println("Abstract class");
+        System.out.println(marks);
+        //marks=100;  we cannot change the value of a final variable in java
+
+
+
     }
 }
