@@ -1,0 +1,95 @@
+ABSTRACT CLASS – KEY NOTES
+WHAT AN ABSTRACT CLASS IS
+
+→ An abstract class is a class that cannot be instantiated directly.
+→ It is used to define a structure that child classes must follow.
+→ If a class contains at least one abstract method
+→ the class itself must be abstract.
+
+ABSTRACT METHODS
+
+→ Abstract methods do not have a body.
+→ Any class that extends an abstract class
+→ must implement all abstract methods
+→ unless the child class is also abstract.
+
+RULES SHOWN IN AbstractBase
+
+→ Abstract classes can have variables.
+→ static final variables
+→ act as constants
+→ cannot be changed.
+→ Abstract classes can have static methods.
+→ Abstract classes cannot have abstract static methods.
+→ Abstract classes cannot have abstract constructors.
+
+OBJECT CREATION
+
+→ You cannot create an object of an abstract class directly.
+→ You can create an object using:
+→ An anonymous inner class
+→ that implements all abstract methods.
+→ A child class
+→ must implement all abstract methods
+→ to be instantiated.
+
+INHERITANCE BEHAVIOR
+
+→ AbstractChild must override:
+→ career()
+→ degree()
+→ Static methods of an abstract class
+→ are accessed using:
+→ AbstractBase.hello()
+
+INTERFACE – KEY NOTES
+WHAT AN INTERFACE IS
+
+→ An interface is a pure blueprint of a class.
+→ It specifies:
+→ what a class should do
+→ not how it should do it.
+→ Interfaces support multiple inheritance.
+
+INTERFACE PROPERTIES
+
+→ All methods
+→ are public and abstract by default.
+→ All variables
+→ are public
+→ static
+→ final by default.
+→ Interfaces cannot be instantiated.
+
+IMPLEMENTATION RULES
+
+→ A class uses implements
+→ to inherit an interface.
+→ The implementing class
+→ must override all interface methods.
+→ Method visibility
+→ must be public
+→ when implementing interface methods.
+
+RELATIONSHIP WITH ABSTRACT CLASSES
+
+→ An interface
+→ cannot implement an abstract class.
+→ An abstract class
+→ can implement an interface.
+→ Interfaces
+→ remove implementation details
+→ from higher-level classes.
+
+INTERFACE IMPLEMENTATION – NOTES FROM InterfaceImpl
+
+→ InterfaceImpl implements InterfaceClass.
+→ The method setName():
+→ overrides the interface method.
+→ updates internal state (name).
+→ Getter and display methods
+→ are normal class methods
+→ not part of the interface.
+→ Interfaces
+→ define required behavior
+→ not helper or utility methods.

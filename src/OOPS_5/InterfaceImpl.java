@@ -39,5 +39,7 @@ public class InterfaceImpl implements InterfaceClass{
 
     }
 
+    // interfaces remove the defination of how its going to be implements rom the higher claassees
+
 
 }
